@@ -1,40 +1,203 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/moon.css">
+    <style>
+        em {
+            font-size: bolder;
+        }
+    </style>
+</head>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1 class="r-fit-text">IT IS SUSTAINABLE</h1>
+                <h4 class="r-fit-text">Nos choix (métiers/technos/statégiques) aideront la planète</h4>
+            </section>
+            <section>
+                <h3>Plan</h3>
+                <ul>
+                    <li>Context</li>
+                    <li>Architecture</li>
+                    <li>Ops</li>
+                    <li>Dev</li>
+                    <li>Action</li>
+                </ul>
+            </section>
+            <section>
+                <h3>But</h3>
+                <p>Quels sont les <u>choix</u> technologiques et les choix métiers que nous
+                    pouvons mettre en place pour rendre nos réalisations plus vertes :</p>
+                <ul>
+                    <li>consommant moins d’énergie</li>
+                    <li>consommant moins de ressources</li>
+                    <li>avec un impact faible sur l’humain et le non humain</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Les 3 piliers du Développement Durable</h3>
+                <ul>
+                    <li>Profit</li>
+                    <li>People</li>
+                    <li>Planet</li>
+                </ul>
+                <aside class="notes">
+                    https://en.greenly.earth/blog/3-pillars-of-sustainable-development#:~:text=The%20sustainable%20development%20concept%20owes,%3A%20social%2C%20economic%20and%20environmental%20.
+                </aside>
+            </section>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+            <section data-background-color="#eee8d5">
+                <h1 class="r-fit-text">Contexts</h1>
+            </section>
+            <section>
+                <div style="display: flex;">
+                    <div style="flex:1;">Réchauffement Global</div>
+                    <div style="flex:2;">
+                        <img src="assets/arrow.svg" />
+                    </div>
+                    <div style="flex:1;">Dérèglement climatique local</div>
+                </div>
+            </section>
+            <section>
+                <h1 class="r-fit-text" style="color:#b58900">37°5</h1>
+            </section>
+            <section>
+                <h3>Les 9 limites de la planète</h3>
+                <img src="assets/bon_pote_limites-planetaires-9999.png" width="60%">
+                <aside class="notes">
+                    "parking de supermarché"
+                    https://bonpote.com/la-5eme-limite-planetaire-vient-detre-officiellement-franchie-et-tout-le-monde-sen-fout/
+                </aside>
+            </section>
+            <section>
+                <h3>Impact du numérique</h3>
+                <div style="display: flex;">
+                    <div style="flex:1;">80 %<br>Fabrication</div>
+                    <div style="flex:1;">20 %<br>Utilisation</div>
+                </div>
+            </section>
+            <section>
+                <section>
+                <h3>Chiffres 2019</h3>
+                <ul>
+                    <li><span>3 x </span>l'emprunte carbone de
+                         la France ou de l'Angleterre : Eau, Matériaux, Energie</li>
+                    <li><span>10 % </span>de l'électricité produite dans le monde</li>
+                    <li><span>4 % </span>des emissions de GES</li>
+                    <li><span>21 %</span>du forfait GES annuel à cause du numérique</li>
+                    <li><span>🚀 + 21 % </span>des déchets numérique 2015-2020</li>
+                </ul>
+                </section>
+                <section>
+                    <h3>Plus de chiffres</h3>
+                    <aside class="notes">
+                        slide page 11
+                    </aside>
+                </section>
+            </section>
+            <section data-auto-animate>
+                <h3>Que faisons nous dans le numérique ?</h3>
+                <p>des logiciels, sur des ordinateurs</p>
+            </section>
+            <section data-auto-animate>
+                <h3>Que faisons nous dans le numérique ?</h3>
+                <p>des logiciels, avec des disques, de l'électricité, des processeurs, 
+                    de la mémoire, du réseau, des écrans, des capteurs, etc...</p>
+            </section>
+            <section>
+                <h3>Métaux Rares</h3>
+                <img src="assets/metaux_rares_chine_mines.jpg"/>
+            </section>
+            <section>
+                <section>
+                    <div style="display: flex;">
+                        <div style="flex: 1;">
+                            <h3>Recette</h3>
+                            <h4>Boule de pain</h4>
+                        </div>
+                        <div style="flex: 4;">
+                            Une bonne dose de farine<br/>
+                            .<br/>
+                            De l’eau<br/>
+                            .<br/>
+                            Un peu de levure<br/>
+                            .<br/>
+                            Un pincée de sel<br/>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h3>Ressources qui s'épuisent</h3>
+                    <aside class="notes">
+                        slide p 20
+                    </aside>
+                </section>
+            </section>
+            <section>
+                <h3>From Cradle to Grave</h3>
+                <ol>
+                    <li>Extraction des matières premières</li>
+                    <li>Transport</li>
+                    <li>Assemblage</li>
+                    <li>Intégration</li>
+                    <li>Fin de vie : déchets ou recyclage / réutilisation</li>
+                </ol>
+            </section>
+            <section>
+                <section>
+                    <h3>Equipements connectés à Internet</h3>
+                    <div style="display: flex;">
+                        <div style="flex:1"><h4>30</h4>milliards</div>
+                        <div style="flex:3">
+                        Dont :
+                        <ul>
+                            <li>3.6 milliards de smartphone</li>
+                            <li>2 milliards d'ordinateurs</li>
+                        </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <p>Quel est l'impact d'un ordinateur portable ?</p>
+                </section>
+                <section>
+                    <ul>
+                        <li>1 tonne de matières premières</li>
+                        <li>200 kg GES</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <h3>Effet Rebond</h3>
+                <p>
+                    plus on améliore l'efficacité d'utiliser une ressource,
+                    plus sa consommation peut augmenter.
+                </p>
+                <aside class="notes">
+                    <pre>
+                        - efficacité moteur thermique
+                        - bande passante réseau mobile
+                    </pre>
+                </aside>
+            </section>
+        </div>
+        
+    </div>
+    
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script type="text/javascript">
+        Reveal.initialize({
+            plugins: [RevealMarkdown, RevealNotes],
+            transition: 'none',
+        });
+    </script>
+</body>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
 </html>
