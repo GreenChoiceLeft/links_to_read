@@ -8,25 +8,106 @@
         em {
             font-size: bolder;
         }
+        footer {
+            position: absolute;
+            bottom: 0;
+            margin: 5px;
+            font-size: 12px;
+        }
+        footer img {
+            vertical-align: middle;
+        }
+        #plan li,
+        #mesure li,
+        #eco-conception li,
+        #myself div div {
+            font-size: 30px;
+        }
+        #myself li {
+            font-size: 20px;
+        }
+        section img {
+            border-radius: 5px;
+        }
+        section .column-container {
+            display: flex;
+        }
+        section .column-container .fcolumn {
+            padding: 10px;
+            flex: 1;
+        }
+        section .column-container .fcolumn:not(:first-child) {
+            border-left: 1px dashed #eee8d5;
+        }
     </style>
 </head>
 
 <body>
     <div class="reveal">
+        <footer>
+            Corentin Jechoux
+            <img src="assets/linkedin_corentin-jechoux.qrcode.png" width="15%">
+        </footer>
         <div class="slides">
             <section>
                 <h1 class="r-fit-text">IT IS SUSTAINABLE</h1>
-                <h4 class="r-fit-text">Nos choix (métiers/technos/statégiques) aideront la planète</h4>
+                <h4 class="r-fit-text">Nos choix (métiers/technos/stratégiques) aideront la planète</h4>
             </section>
-            <section>
-                <h3>Plan</h3>
-                <ul>
-                    <li>Context</li>
-                    <li>Architecture</li>
-                    <li>Ops</li>
-                    <li>Dev</li>
-                    <li>Action</li>
-                </ul>
+            <section id="plan">
+                <div class="column-container">
+                    <div class="fcolumn">
+                        <h3>Plan</h3>
+                        <ul>
+                            <li>Context</li>
+                            <li>Architecture</li>
+                            <li>Ops</li>
+                            <li>Dev</li>
+                            <li>Action</li>
+                        </ul>
+                    </div>
+                    <div class="fcolumn" >
+                        <h3>Règles</h3>
+                        <ul>
+                            <li>Beaucoup de contenu</li>
+                            <li>Interactivité apprécié</li>
+                            <li>disponible via LinkedIn pour plus d'informations</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </section>
+            <section id="myself">
+                <h3>Corentin Jechoux</h3>
+                
+                <div class="column-container">
+                    <div class="fcolumn">
+                    <ul>
+                        <li>Codeur</li>
+                        <li>Tech Lead</li>
+                        <li>Manager</li>
+                        <li>Formateur</li>
+                    </ul>
+                    </div>
+                    <div style="flex:1"></div>
+                    
+                    <div class="fcolumn">
+                        <ul>
+                            <li>JAVA</li>
+                            <li>RUST</li>
+                            <li>HTML / CSS / JS </li>
+                            <li>NODE.JS</li>
+                        </ul>
+                    </div>
+                    <div style="flex:1"></div>
+                    <div class="fcolumn">
+                        <ul>
+                            <li>Client léger</li>
+                            <li>Client lourd</li>
+                            <li>Batch</li>
+                            <li>Full stack</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
             <section>
                 <h3>But</h3>
@@ -40,11 +121,16 @@
             </section>
             <section>
                 <h3>Les 3 piliers du Développement Durable</h3>
-                <ul>
-                    <li>Profit</li>
-                    <li>People</li>
-                    <li>Planet</li>
-                </ul>
+                <div class="column-container">
+                    <ul class="fcolumn">
+                        <li>Profit</li>
+                        <li>People</li>
+                        <li>Planet</li>
+                    </ul>
+                    <div style="flex: 1;">
+                        <img src="assets/3_pillier_dev_durable.png" />
+                    </div>
+                </div>
                 <aside class="notes">
                     https://en.greenly.earth/blog/3-pillars-of-sustainable-development#:~:text=The%20sustainable%20development%20concept%20owes,%3A%20social%2C%20economic%20and%20environmental%20.
                 </aside>
@@ -54,30 +140,35 @@
                 <h1 class="r-fit-text">Contexts</h1>
             </section>
             <section>
-                <div style="display: flex;">
-                    <div style="flex:1;">Réchauffement Global</div>
+                <div class="column-container">
+                    <div class="fcolumn">Réchauffement Global</div>
                     <div style="flex:2;">
                         <img src="assets/arrow.svg" />
                     </div>
-                    <div style="flex:1;">Dérèglement climatique local</div>
+                    <div style="flex: 1;">Dérèglement climatique local</div>
                 </div>
             </section>
             <section>
                 <h1 class="r-fit-text" style="color:#b58900">37°5</h1>
             </section>
             <section>
-                <h3>Les 9 limites de la planète</h3>
-                <img src="assets/bon_pote_limites-planetaires-9999.png" width="60%">
-                <aside class="notes">
-                    "parking de supermarché"
-                    https://bonpote.com/la-5eme-limite-planetaire-vient-detre-officiellement-franchie-et-tout-le-monde-sen-fout/
-                </aside>
+                <section>
+                    <img class="r-stretch" src="assets/plante_sous_cloche.jpg" />
+                </section>
+                <section>
+                    <h3>Les 9 limites de la planète</h3>
+                    <img src="assets/bon_pote_limites-planetaires-9999.png" width="60%">
+                    <aside class="notes">
+                        "parking de supermarché"
+                        https://bonpote.com/la-5eme-limite-planetaire-vient-detre-officiellement-franchie-et-tout-le-monde-sen-fout/
+                    </aside>
+                </section>
             </section>
             <section>
                 <h3>Impact du numérique</h3>
-                <div style="display: flex;">
-                    <div style="flex:1;">80 %<br>Fabrication</div>
-                    <div style="flex:1;">20 %<br>Utilisation</div>
+                <div class="column-container">
+                    <div class="fcolumn">80 %<br>Fabrication</div>
+                    <div class="fcolumn">20 %<br>Utilisation</div>
                 </div>
             </section>
             <section>
@@ -88,7 +179,7 @@
                          la France ou de l'Angleterre : Eau, Matériaux, Energie</li>
                     <li><span>10 % </span>de l'électricité produite dans le monde</li>
                     <li><span>4 % </span>des emissions de GES</li>
-                    <li><span>21 %</span>du forfait GES annuel à cause du numérique</li>
+                    <li><span>21 % </span>du forfait GES annuel à cause du numérique</li>
                     <li><span>🚀 + 21 % </span>des déchets numérique 2015-2020</li>
                 </ul>
                 </section>
@@ -114,10 +205,11 @@
             </section>
             <section>
                 <section>
-                    <div style="display: flex;">
-                        <div style="flex: 1;">
+                    <div class="column-container">
+                        <div class="fcolumn">
                             <h3>Recette</h3>
                             <h4>Boule de pain</h4>
+                            <img src="assets/boule_de_pain.jpg" style="border-radius: 50%;" />
                         </div>
                         <div style="flex: 4;">
                             Une bonne dose de farine<br/>
@@ -126,7 +218,7 @@
                             .<br/>
                             Un peu de levure<br/>
                             .<br/>
-                            Un pincée de sel<br/>
+                            Une pincée de sel<br/>
                         </div>
                     </div>
                 </section>
@@ -150,7 +242,7 @@
             <section>
                 <section>
                     <h3>Equipements connectés à Internet</h3>
-                    <div style="display: flex;">
+                    <div class="column-container">
                         <div style="flex:1"><h4>30</h4>milliards</div>
                         <div style="flex:3">
                         <p>Dont :</p>
@@ -242,7 +334,7 @@
                 <h1 class="r-fit-text">Ops</h1>
             </section>
             <section>
-                <h3>MAtériel</h3>
+                <h3>Matériel</h3>
                 <ul>
                     <li>Occasions / Reconditionnés</li>
                     <li>➔ allongement de la durée de vie</li>
@@ -257,6 +349,215 @@
                     <li>American Cloud Act 👨‍👩‍👦‍👦</li>
                 </ul>
             </section>
+            <section>
+                <h3>Scaling</h3>
+                <ul>
+                    <li>S'adapter à la charge (traffic)</li>
+                    <li>Pensons au "scaling down"</li>
+                    <li>Pensons à la mutualisation</li>
+                    <li>VM dédié si le traffic ~ identique</li>
+                    <li>Function / Lambda si la traffic est très variable</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Shifting</h3>
+                <p>Adapter l'execution selon le mix énergétique.</p>
+                <img src="assets/green_electricity_available.png" />
+                <aside class="notes"   >
+                    <pre>
+                        - page web
+                        - API
+                        - batch "de nuit"
+                    </pre>
+                </aside>
+            </section>
+            <section>
+                <h3>Temps de réponse</h3>
+                <ul>
+                    <li>Temps réelle vs Immédiateté</li>
+                    <li>Ne pas déployer plusieurs instances dans le monde pour se rapprocher des utilisateurs</li>
+                    <li>Cache / Offline</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Réseaux mobile</h3>
+                <ul>
+                    <li>Plus les réseaux mobiles sont modernes plus ils polluent</li>
+                    <li>Privilégié le WI-FI, <span>20 x</span> moins polluant que la 4G</li>
+                </ul>
+            </section>
+
+
+
+            <section data-background-color="#eee8d5">
+                <h1 class="r-fit-text">Dev</h1>
+            </section>
+            <section>
+                <h3>Nouvelles features ?</h3>
+                <p>+ étudier son impact sur le numérique</p>
+            </section>
+            <section>
+                <h3>Build</h3>
+                <ul>
+                    <li>Stratégie de build ?</li>
+                    <li>Stratégie de stockage des artifacts</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Les données</h3>
+                <ul>
+                    <li>
+                        A contre courant du /BIG DATA/ utiliser seulement les données nécessaires.
+                    </li>
+                    <li>Format et protocoles : SOAP, JSON, Protocol Buffer, Apache Thrift</li>
+                    <li>Bases de données</li>
+                    <li>Stratégie d'archivage</li>
+                    <li>Log</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Site Web</h3>
+                <ul>
+                    <li>Pour une requête client/serveur, 80% de l'énergie consommé 
+                        est au niveau du front-end</li>
+                    <li>Dynamique ? Statique ? Framework ? </li>
+                    <li>Archivage CMS</li>
+                    <li>Feuille de style pour l'impression</li>
+                    <li>HTTP2</li>
+                    <li>💥 MOBILE FIRST</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Cache Web</h3>
+                <ul>
+                    <li>Permet de réduire les volumes de données échangés</li>
+                    <li>Configuration sur le serveur ou sur le navigateur</li>
+                    <li>💥 OFFLINE FIRST</li>
+                </ul>
+            </section>
+            <section>
+                <h3>3 cliques MAX</h3>
+                <ul>
+                    <li>Moins de réseaux</li>
+                    <li>Bon UX</li>
+                    <li>Bon SEO</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Historique du code source</h3>
+                <p>Doit-on garder un historique du code sur 10 ans ? </p>
+            </section>
+            <section>
+                <h3>Log Bombing</h3>
+                <pre><code data-trim class="java">
+log.info("Client is connecting with " + email);
+                </code>
+                </pre>
+            </section>
+            <section>
+                <h3>Framework ?</h3>
+                <ul>
+                    <li>Vraiment besoin ?</li>
+                    <li>Bénéfice risque ?</li>
+                    <li>Quel % de classe je n'utilise pas dans le framework ?</li>
+                </ul>
+                </aside>
+            </section>
+
+            <section id="eco-conception">
+                <h3>Quelques principes d'Eco-conception</h3>
+                <div class="column-container">
+                    <ul class="fcolumn">
+                        <li>Limiter le nombre de requêtes HTTP</li>
+                        <li>Attention aux autocomplete</li>
+                        <li>Sélecteur CSS efficace, simple, léger</li>
+                        <li>Font standard</li>
+                        <li>CSS et JS externalisé si ce sont des ressources partagés</li>
+                        <li>Tailles des images selon le device (au build)</li>
+                    </ul>
+                    <ul class="fcolumn">
+                        <li>Lazy Loading des images</li>
+                        <li>Rendre un élément du DOM invisible si plusieurs propriétés sont modifiés</li>
+                        <li>Éviter animations CSS / JS</li>
+                        <li>JS : fonction anonyme si utiliser 1 seul fois</li>
+                        <li><code>i++</code> à remplacer par <code>++i</code></li>
+                        <li>Héberger les ressources sous un domaine sans cookies</li>
+                    </ul>
+                </div>
+
+            </section>
+
+
+            <section data-background-color="#eee8d5">
+                <h1 class="r-fit-text">Actions</h1>
+            </section>
+            <section id="mesure">
+                <h3>On Mesure</h3>
+                <div class="column-container">
+                    <ul class="fcolumn">
+                        <li>Référencement du matériel : son impact (9 limites de la planète)
+                            au cours de son cycle de vie.</li>
+                        <li>Eco Labels : EPEAT, TCO8, Blue Angel,
+                            Greenpeace "Guide to greener electronics"</li>
+                        <li>Souscrire à une solution de mesure global chez AWS, GCP, AZURE</li>
+                        <li>Energie : consommation et mix énergétique</li>
+                    </ul>
+                    <ul class="fcolumn">
+                        <li>Temps de réponse, volumes des données</li>
+                        <li>€ aussi la facture I.T.</li>
+                        <li>Hardware de nos clients (smartphone, ordinateur)</li>
+                        <li>Consommation CPU, RAM, Disque, IO, etc...</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>Analyse du cycle de vie - ACV</h3>
+                <p>ISO 14040 et 14043</p>
+                <aside class="notes">
+                    <pre>
+                        - flux physique de matières et d'énergie 
+                        associés aux activés humaines
+                        - evaluation des impacts
+                        - approche du berceau à la tombe
+                        - approche multicritère : flux entrant et sortant
+                    </pre>
+                </aside>
+            </section>
+            <section>
+                <h3>Sobriété</h3>
+                <ul>
+                    <li>se recentrer sur l'essentiel</li>
+                    <li>Pas de monolithe, pas de superflue</li>
+                    <li>MOBILE FIRST</li>
+                    <li>OFFLINE FIRST</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Communication environnementale</h3>
+                <ul>
+                    <li>Evite le Greenwashing</li>
+                    <li>➔ ISO 14063</li>
+                </ul>
+                <aside class="notes">
+                    <pre>
+                    - Epuisement des ressources abiotiques
+                    - Impact sur le climat
+                    - Ecotoxicité :extraction or et terres rares, ...
+                    - Toxicité humaine
+                    - Eutrophisation : déséquilibre des nutriments du milieu aquatique
+                    - Acidification des océans
+
+                    </pre>
+
+                </aside>
+            </section>
+
+
+
+
+            <section data-background-color="#eee8d5">
+                <h1 class="r-fit-text">FIN, Q&A, Share, </h1>
+            </section>
 
         </div>
         
@@ -266,10 +567,16 @@
     <script src="dist/reveal.js"></script>
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/notes/notes.js"></script>
+    
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="assets/highlight.js/languages/java.min.js"></script>
+
     <script type="text/javascript">
         Reveal.initialize({
-            plugins: [RevealMarkdown, RevealNotes],
+            plugins: [RevealMarkdown, RevealNotes, RevealHighlight],
             transition: 'none',
+            slideNumber: 'c/t',
         });
     </script>
 </body>
