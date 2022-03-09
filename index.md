@@ -1,42 +1,9 @@
-# To read
-
-[A lire](README.md)
+Voici la liste des ressources à lire pour appronfondir votre démarche Green IT.
 
 
-## Welcome to GitHub Pages
+## Livres
 
-You can use the [editor on GitHub](https://github.com/GreenChoiceLeft/links_to_read/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GreenChoiceLeft/links_to_read/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* [Ecoconception web, les 115 bonnes pratiques](https://www.eyrolles.com/Informatique/Livre/ecoconception-web-les-115-bonnes-pratiques-9782212678062/) de Frédéric Bordage : 115 règles catégorisés à mettre en place. Livre à garder à côté de son clavier.
+* [Sobriété numérique Les clés pour agir](https://www.eyrolles.com/Informatique/Livre/sobriete-numerique-9782283032152/) de Frédéric Bordage : un dictionnaire dont chaque entré nous éclaire sur l'impact du numérique sur la planète.
+* [L'Enfer numérique - Voyage au bout d'un like](https://www.decitre.fr/livres/l-enfer-numerique-9791020909961.html) de Guillaume Pitron : sous la forme d'un roman, le journaliste Guillaume Pitron nous emnène dans tous les coins et recoins de la planète afin de prendre l'empleur de l'impact du numérique sur la planète.
+* [La guerre des métaux rares - La face cachée de la transition énergétique et numérique](https://www.decitre.fr/livres/la-guerre-des-metaux-rares-9791020907172.html) de Guillaume Pitron : sous la forme d'un roman, le journaliste Guillaume Pitron nous emnène dans tous les coins et recoins de la planète afin de prendre l'empleur du stress que nous faison subir à la planète à la recherche de ressources aux propriétés étonnantes qui iront booster nos inovation technologiques et les revenues des industriels / monopoles.
