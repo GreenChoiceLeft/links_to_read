@@ -18,6 +18,7 @@ Voici la liste des ressources à lire pour appronfondir votre démarche Green IT
 ## Lecture web
 
 * https://principles.green/ : Principles of Green Software Engineering
+* greenit.fr
 
 
 ## Entreprise
@@ -42,4 +43,9 @@ Voici la liste des ressources à lire pour appronfondir votre démarche Green IT
 * Livre BD Le monde sans fin
 * lien parrainage Green-Got 
 * Greenly audit carbon
+* La fresque du numérique 
+* le bon digital 
+* sami.eco
+* institut INR
+
 
