@@ -24,7 +24,22 @@ Voici la liste des ressources à lire pour appronfondir votre démarche Green IT
 
 ## Influenceurs LinkedIn
 
-# Podcasts
+* Olivier Le Goaër
+
+## Podcasts
 
 * [The Climate Fix](https://theclimatefix.com/) : Tune in for relatable perspectives from folks who -- just like you -- are on a climate journey. Hosted by Asim Hussain, Amelia Holcomb, Marketa Benisek and Tim Falls
+
+
+
+## A catégoriser :
+
+* https://lowww.directory/
+* les 9 limites de la planètes bon potes 
+* l'économie du Donut
+* les 3 pilliers du dev durable
+* Cloud Carbon monitoring : AWS, GCP, AZURE
+* Livre BD Le monde sans fin
+* lien parrainage Green-Got 
+* Greenly audit carbon
 
