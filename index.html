@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="dist/theme/moon.css">
     <style>
         em {
-            font-size: bolder;
+            font-weight: bolder;
+            font-style: normal;
+            color: #b58900;
         }
         footer {
             position: absolute;
@@ -17,7 +19,6 @@
         footer img {
             vertical-align: middle;
         }
-        #plan li,
         #mesure li,
         #eco-conception li,
         #myself div div {
@@ -32,54 +33,73 @@
         section .column-container {
             display: flex;
         }
+        section .column-container div {
+            color: #eee8d5;
+        }
         section .column-container .fcolumn {
             padding: 10px;
             flex: 1;
         }
+        section li {
+            color: #eee8d5;
+            list-style: circle;
+        }
         section .column-container .fcolumn:not(:first-child) {
             border-left: 1px dashed #eee8d5;
+        }
+        li {
+            font-size: 40px;
+        }
+        .reveal h3 {
+            font-size: 30px;
+        }
+        .reveal h3 ::after {
+            border: 1px solid red;
+            height: 10px;
+            content: ' ';
+        }
+        i {
+            color: #a8201a;
         }
     </style>
 </head>
 
 <body>
     <div class="reveal">
-        <footer>
+        <!--<footer>
             Corentin Jechoux
             <img src="assets/linkedin_corentin-jechoux.qrcode.png" width="15%">
-        </footer>
+        </footer>-->
         <div class="slides">
-            <section data-background-iframe="https://www.tree.fm/forest/16" data-background-interactive></section>
+            <!--<section data-background-iframe="https://www.tree.fm/forest/16" data-background-interactive></section>-->
             <section>
                 <h1 class="r-fit-text">IT IS SUSTAINABLE</h1>
-                <h4 class="r-fit-text">Nos choix (métiers/technos/stratégiques) aideront la planète</h4>
+                <h4>Nos choix aideront la planète</h4>
+            </section>
+            <section id="plan" >
+               
+                <h3>Plan</h3>
+                <ul>
+                    <li>Context</li>
+                    <li>Architecture</li>
+                    <li>Ops</li>
+                    <li>Dev</li>
+                    <li>Action</li>
+                </ul>
+               
             </section>
             <section id="plan">
-                <div class="column-container">
-                    <div class="fcolumn">
-                        <h3>Plan</h3>
-                        <ul>
-                            <li>Context</li>
-                            <li>Architecture</li>
-                            <li>Ops</li>
-                            <li>Dev</li>
-                            <li>Action</li>
-                        </ul>
-                    </div>
-                    <div class="fcolumn" >
-                        <h3>Règles</h3>
-                        <ul>
-                            <li>Beaucoup de contenu</li>
-                            <li>Interactivité apprécié</li>
-                            <li>Pas de partage des slides, mais mise à disposition d'une pages web avec les lectures pour approfondir les sujets</li>
-                            <li>Prise de note recommandés</li>
-                            <li>Disponible via LinkedIn pour plus d'informations</li>
-                        </ul>
-                    </div>
-                    
-                </div>
+                 
+                <h3>Règles</h3>
+                <ul>
+                    <!--<li>Beaucoup de contenu</li>-->
+                    <li><em>Interactivité</em> <i>❤️</i></li>
+                    <li><em>Pas de partage</em> des slides</li> 
+                    <li><em>Mise à disposition</em> d'une liste de lecture</li>
+                </ul>
+                  
             </section>
-            <section id="myself">
+            <section id="myself" data-visibility="hidden">
                 <h3>Corentin Jechoux</h3>
                 
                 <div class="column-container">
@@ -114,26 +134,23 @@
             </section>
             <section>
                 <h3>But</h3>
-                <p>Quels sont les <u>choix</u> technologiques et les choix métiers que nous
-                    pouvons mettre en place pour rendre nos réalisations plus vertes :</p>
+                
                 <ul>
-                    <li>consommant moins d’énergie</li>
-                    <li>consommant moins de ressources</li>
-                    <li>avec un impact faible sur l’humain et le non humain</li>
+                    <li>Moins d’<em>énergie</em></li>
+                    <li>Moins de <em>ressources</em></li>
+                    <li><em>Impact faible</em> sur l’humain et le non humain</li>
                 </ul>
+                <aside class="notes">
+                    <pre>
+Quels sont les choix technologiques et les choix métiers que nous
+pouvons mettre en place pour rendre nos réalisations plus vertes
+                    </pre>
+                    
+                </aside>
             </section>
             <section>
                 <h3>Les 3 piliers du Développement Durable</h3>
-                <div class="column-container">
-                    <ul class="fcolumn">
-                        <li>Profit</li>
-                        <li>People</li>
-                        <li>Planet</li>
-                    </ul>
-                    <div style="flex: 1;">
-                        <img src="assets/3_pillier_dev_durable.png" />
-                    </div>
-                </div>
+                <img src="assets/3_pillier_dev_durable.svg" class="r-stretch"/>
                 <aside class="notes">
                     https://en.greenly.earth/blog/3-pillars-of-sustainable-development#:~:text=The%20sustainable%20development%20concept%20owes,%3A%20social%2C%20economic%20and%20environmental%20.
                 </aside>
@@ -170,21 +187,38 @@
             <section>
                 <h3>Impact du numérique</h3>
                 <div class="column-container">
-                    <div class="fcolumn">80 %<br>Fabrication</div>
-                    <div class="fcolumn">20 %<br>Utilisation</div>
+                    <div class="fcolumn">
+                        <em>80 %</em>
+                        <br>Fabrication
+                        <img src="assets/laura-ockel-qOx9KsvpqcM-unsplash.jpg"/>
+                    </div>
+                    <div class="fcolumn">
+                        <em>20 %</em>
+                        <br>Utilisation
+                        <img src="assets/marvin-meyer-SYTO3xs06fU-unsplash.jpg"/>
+                    </div>
                 </div>
             </section>
             <section>
                 <section>
                 <h3>Chiffres 2019</h3>
                 <ul>
-                    <li><span>3 x </span>l'emprunte carbone de
-                         la France ou de l'Angleterre : Eau, Matériaux, Energie</li>
-                    <li><span>10 % </span>de l'électricité produite dans le monde</li>
-                    <li><span>4 % </span>des emissions de GES</li>
-                    <li><span>21 % </span>du forfait GES annuel à cause du numérique</li>
-                    <li><span>🚀 + 21 % </span>des déchets numérique 2015-2020</li>
+                    <li><em>3 x </em>l'emprunte carbone de
+                         la France ou de l'Angleterre </li>
+                    <li><em>10 % </em>de l'électricité produite dans le monde</li>
+                    <li><em>4 % </em>des emissions de GES</li>
+                    <li><em>21 % </em>du forfait GES annuel à cause du numérique</li>
+                    <li><i>🚀</i><em> + 21 % </em>des déchets numérique 2015-2020</li>
                 </ul>
+                    <aside class="notes">
+                        <pre>
+3 x l'emprunte carbone de la France ou de l'Angleterre : Eau, Matériaux, Energie</li>
+10 % de l'électricité produite dans le monde</li>
+4 % des emissions de GES</li>
+21 % du forfait GES annuel à cause du numérique</li>
+🚀 + 21 % des déchets numérique 2015-2020</li>                            
+                        </pre>                        
+                    </aside>
                 </section>
                 <section data-visibility="hidden">
                     <h3>Plus de chiffres</h3>
@@ -193,14 +227,30 @@
                     </aside>
                 </section>
             </section>
-            <section data-auto-animate>
+            <section>
                 <h3>Que faisons nous dans le numérique ?</h3>
-                <p>des logiciels, sur des ordinateurs</p>
-            </section>
-            <section data-auto-animate>
-                <h3>Que faisons nous dans le numérique ?</h3>
-                <p>des logiciels, avec des disques, de l'électricité, des processeurs, 
-                    de la mémoire, du réseau, des écrans, des capteurs, etc...</p>
+                <div class="column-container">
+                    <div class="fcolumn" style="padding-top: 10%;">
+                       <ul>
+                           <li>Des logiciels</li>
+                           <li>Sur des ordinateurs</li>
+                       </ul>
+                    </div>
+                    <div class="fcolumn">
+                        <img src="assets/christin-hume-Hcfwew744z4-unsplash.jpg"/>
+                    </div>
+                </div>
+
+
+
+
+                <aside class="notes">
+                    <pre>
+disques, de l'électricité, 
+des processeurs, de la mémoire,
+ du réseau, des écrans,
+  des capteurs, etc...</pre>
+                </aside>
             </section>
             <section>
                 <h3>Métaux Rares</h3>
@@ -246,24 +296,24 @@
                 <section>
                     <h3>Equipements connectés à Internet</h3>
                     <div class="column-container">
-                        <div style="flex:1"><h4>30</h4>milliards</div>
+                        <div style="flex:1; font-size: 70px;color:#b58900">30 milliards</div>
                         <div style="flex:3">
                         <p>Dont :</p>
                         <ul>
-                            <li>3.6 milliards de smartphone</li>
+                            <li>3.6 milliards de smartphones</li>
                             <li>2 milliards d'ordinateurs</li>
                         </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <h3>Impact ?</h3>
-                    <p>Quel est l'impact d'un ordinateur portable ?</p>
+                    <h3>Impact d'un ordinateur portable ?</h3>
+                    <img src="assets/alex-perez-wEgR12N01Tk-unsplash.jpg" class="r-stretch" />
                 </section>
                 <section>
                     <ul>
-                        <li>1 tonne de matières premières</li>
-                        <li>200 kg GES</li>
+                        <li><em>1 tonne</em> de matières premières</li>
+                        <li><em>200 kg</em> GES</li>
                     </ul>
                 </section>
             </section>
@@ -622,7 +672,7 @@ associés aux activés humaines
         Reveal.initialize({
             plugins: [RevealMarkdown, RevealNotes, RevealHighlight],
             transition: 'none',
-            slideNumber: 'c/t',
+            //slideNumber: 'c/t',
         });
     </script>
 </body>
