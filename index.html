@@ -40,6 +40,7 @@
             padding: 10px;
             flex: 1;
         }
+        section p,
         section li {
             color: #eee8d5;
             list-style: circle;
@@ -60,6 +61,9 @@
         }
         i {
             color: #a8201a;
+        }
+        #lowww li {
+            font-size: 20px;
         }
     </style>
 </head>
@@ -289,6 +293,7 @@ des processeurs, de la mémoire,
                     <li>Transport</li>
                     <li>Assemblage</li>
                     <li>Intégration</li>
+                    <li>Utilisation</li>
                     <li>Fin de vie : déchets ou recyclage / réutilisation</li>
                 </ol>
             </section>
@@ -320,8 +325,8 @@ des processeurs, de la mémoire,
             <section>
                 <h3>Effet Rebond</h3>
                 <p>
-                    plus on améliore l'efficacité d'utiliser une ressource,
-                    plus sa consommation peut augmenter.
+                    plus on <em>améliore l'efficacité</em> d'utiliser une ressource,
+                    plus sa <em>consommation peut augmenter</em>.
                 </p>
                 <aside class="notes">
                     <pre>
@@ -370,16 +375,24 @@ des processeurs, de la mémoire,
                     <li>Souvent l'occasion d'ajouter des fonctionnalité non
                         nécessaire
                     </li>
-                    <li>Système plus intelligent : exemple Eclipse Plateforme.</li>
+                    <li>Système plus intelligent. Ex : Eclipse Plateforme</li>
                 </ul>
             </section>
             <section>
                 <h3>Synchro des photo de smartphone dans le Cloud</h3>
-                <ul>
-                    <li>32 000 photos / secondes</li>
-                    <li>➔ 100 000 disques dure / an</li>
-                    <li>➔ 2,4 centrales nucléaires dédiés</li>
-                </ul>
+                <div class="column-container">
+                    <div class="fcolumn" style="flex:2;">
+                        <ul>
+                            <li><em>32 000</em> photos / secondes</li>
+                            <li>➔ <em>100 000</em> disques durs / an</li>
+                            <li>➔ <em>2,4 centrales nucléaires</em> dédiés</li>
+                        </ul>
+
+                    </div>
+                    <div class="fcolumn">
+                        <img src="assets/cristina-zaragoza-cMVRsfY8R3Q-unsplash.jpg" />
+                    </div>
+                </div>
             </section>
 
 
@@ -398,7 +411,7 @@ des processeurs, de la mémoire,
             <section>
                 <h3>Cloud</h3>
                 <ul>
-                    <li>Bonne gestion des serveurs</li>
+                    <li>Bonne gestion des serveurs <i style="color:rgb(233, 211, 44)">👍</i></li>
                     <li>Bien choisir son fournisseur</li>
                     <li>American Cloud Act 👨‍👩‍👦‍👦</li>
                 </ul>
@@ -407,8 +420,8 @@ des processeurs, de la mémoire,
                 <h3>Scaling</h3>
                 <ul>
                     <li>S'adapter à la charge (traffic)</li>
-                    <li>Pensons au "scaling down"</li>
-                    <li>Pensons à la mutualisation</li>
+                    <li>"scaling down"</li>
+                    <li>Mutualisation</li>
                     <li>VM dédié si le traffic ~ identique</li>
                     <li>Function / Lambda si la traffic est très variable</li>
                 </ul>
@@ -417,7 +430,7 @@ des processeurs, de la mémoire,
                 <h3>Shifting</h3>
                 <p>Adapter l'execution selon le mix énergétique.</p>
                 <img src="assets/green_electricity_available.png" />
-                <aside class="notes"   >
+                <aside class="notes"  >
                     <pre>
 - page web
 - API
@@ -452,27 +465,42 @@ des processeurs, de la mémoire,
             </section>
             <section>
                 <h3>Build</h3>
-                <ul>
-                    <li>Stratégie de build ?</li>
-                    <li>Stratégie de stockage des artifacts</li>
-                </ul>
+                <div class="column-container">
+                    <div class="fcolumn">
+                        <img src="assets/xavi-cabrera-kn-UmDZQDjM-unsplash.jpg" />
+                    </div>
+                    <div style="flex:2;">
+                        <ul>
+                            <li>Fréquence des runs</li>
+                            <li>Stratégie de stockage des artifacts</li>
+                            <li>Déploiement modulaire</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
             <section>
                 <h3>Les données</h3>
-                <ul>
-                    <li>
-                        A contre courant du /BIG DATA/ utiliser seulement les données nécessaires.
-                    </li>
-                    <li>Format et protocoles : SOAP, JSON, Protocol Buffer, Apache Thrift</li>
-                    <li>Bases de données</li>
-                    <li>Stratégie d'archivage</li>
-                    <li>Log</li>
-                </ul>
+                <div class="column-container">
+                    <div class="fcolumn">
+                        <img src="assets/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg" />
+                    </div>
+                    <div style="flex:2;">
+                        <ul>
+                            <li>
+                                Seulement les <em>données nécessaires</em>
+                            </li>
+                            <li>Format et Protocoles</li>
+                            <li>Stratégie d'<em>archivage</em></li>
+                            <li>Log</li>
+                        </ul>
+                    </div>
+                </div>
+               
             </section>
-            <section data-background-iframe="https://lowww.directory/" data-background-interactive>
+            <section id="lowww" data-background-iframe="https://lowww.directory/" data-background-interactive>
                 <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); 
                         background-color: rgba(0, 0, 0, 0.9); 
-                        color: #fff; 
+                        color: #fff; font-size: 20px;
                         padding: 20px; font-size: 22px; text-align: left;">
                     <h3>Site Web</h3>
                     <ul>
