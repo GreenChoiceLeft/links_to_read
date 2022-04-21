@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="dist/reveal.css">
     <link rel="stylesheet" href="dist/theme/moon.css">
+    <!--<link rel="stylesheet" href="dist/theme/white.css" >-->
     <style>
         em {
             font-weight: bolder;
@@ -77,14 +78,14 @@
         <div class="slides">
             <!--<section data-background-iframe="https://www.tree.fm/forest/16" data-background-interactive></section>-->
             <section>
-                <h1 class="r-fit-text">IT IS SUSTAINABLE</h1>
+                <h1 class="r-fit-textttt">IT IS SUSTAINABLE</h1>
                 <h4>Nos choix aideront la planète</h4>
             </section>
             <section id="plan" >
                
                 <h3>Plan</h3>
                 <ul>
-                    <li>Context</li>
+                    <li>Contexte</li>
                     <li>Architecture</li>
                     <li>Ops</li>
                     <li>Dev</li>
@@ -161,7 +162,7 @@ pouvons mettre en place pour rendre nos réalisations plus vertes
             </section>
 
             <section data-background-color="#eee8d5">
-                <h1 class="r-fit-text">Contexts</h1>
+                <h1 class="r-fit-textttt">Contextes</h1>
             </section>
             <section>
                 <div class="column-container">
@@ -339,7 +340,7 @@ des processeurs, de la mémoire,
 
 
             <section data-background-color="#eee8d5">
-                <h1 class="r-fit-text">Architecture</h1>
+                <h1 class="r-fit-textttt">Architecture</h1>
             </section>
             <section>
                 <section>
@@ -348,7 +349,7 @@ des processeurs, de la mémoire,
                 </section>
                 <section>
                     <ul>
-                        <li>Couverture fonctionnel</li>
+                        <li>Couverture fonctionnelle</li>
                         <li>Exigence non fonctionnelle : interopérabilité, sécurité, disponibilité</li>
                         <li>Faisabilité</li>
                         <li>Coût / Budget</li>
@@ -372,8 +373,8 @@ des processeurs, de la mémoire,
             <section>
                 <h3>Mise à jours</h3>
                 <ul>
-                    <li>Souvent l'occasion d'ajouter des fonctionnalité non
-                        nécessaire
+                    <li>Souvent l'occasion d'ajouter des fonctionnalités non
+                        nécessaires
                     </li>
                     <li>Système plus intelligent. Ex : Eclipse Plateforme</li>
                 </ul>
@@ -385,7 +386,7 @@ des processeurs, de la mémoire,
                         <ul>
                             <li><em>32 000</em> photos / secondes</li>
                             <li>➔ <em>100 000</em> disques durs / an</li>
-                            <li>➔ <em>2,4 centrales nucléaires</em> dédiés</li>
+                            <li>➔ <em>2,4 centrales nucléaires</em> dédiées</li>
                         </ul>
 
                     </div>
@@ -398,7 +399,7 @@ des processeurs, de la mémoire,
 
 
             <section data-background-color="#eee8d5">
-                <h1 class="r-fit-text">Ops</h1>
+                <h1 class="r-fit-textttt">Ops</h1>
             </section>
             <section>
                 <h3>Matériel</h3>
@@ -441,7 +442,7 @@ des processeurs, de la mémoire,
             <section>
                 <h3>Temps de réponse</h3>
                 <ul>
-                    <li>Temps réelle vs Immédiateté</li>
+                    <li>Temps réel vs Immédiateté</li>
                     <li>Ne pas déployer plusieurs instances dans le monde pour se rapprocher des utilisateurs</li>
                     <li>Cache / Offline</li>
                 </ul>
@@ -457,7 +458,7 @@ des processeurs, de la mémoire,
 
 
             <section data-background-color="#eee8d5">
-                <h1 class="r-fit-text">Dev</h1>
+                <h1 class="r-fit-textttt">Dev</h1>
             </section>
             <section>
                 <h3>Nouvelles features ?</h3>
@@ -489,7 +490,7 @@ des processeurs, de la mémoire,
                             <li>
                                 Seulement les <em>données nécessaires</em>
                             </li>
-                            <li>Format et Protocoles</li>
+                            <li>Formats et Protocoles</li>
                             <li>Stratégie d'<em>archivage</em></li>
                             <li>Log</li>
                         </ul>
@@ -497,7 +498,9 @@ des processeurs, de la mémoire,
                 </div>
                
             </section>
-            <section id="lowww" data-background-iframe="https://lowww.directory/" data-background-interactive>
+            <section id="lowww" 
+                data-background-iframe="https://lowww.directory/" 
+                data-background-interactive>
                 <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); 
                         background-color: rgba(0, 0, 0, 0.9); 
                         color: #fff; font-size: 20px;
@@ -519,7 +522,7 @@ des processeurs, de la mémoire,
             <section>
                 <h3>Cache Web</h3>
                 <ul>
-                    <li>Permet de réduire les volumes de données échangés</li>
+                    <li>Permet de réduire les volumes de données échangées</li>
                     <li>Configuration sur le serveur ou sur le navigateur</li>
                     <li>💥 OFFLINE FIRST</li>
                 </ul>
@@ -561,12 +564,12 @@ log.info("Client is connecting with " + email);
                         <li>Attention aux autocomplete</li>
                         <li>Sélecteur CSS efficace, simple, léger</li>
                         <li>Font standard</li>
-                        <li>CSS et JS externalisé si ce sont des ressources partagés</li>
+                        <li>CSS et JS externalisé si ce sont des ressources partagées</li>
                         <li>Tailles des images selon le device (au build)</li>
                     </ul>
                     <ul class="fcolumn">
                         <li>Lazy Loading des images</li>
-                        <li>Rendre un élément du DOM invisible si plusieurs propriétés sont modifiés</li>
+                        <li>Rendre un élément du DOM invisible si plusieurs propriétés sont modifiées</li>
                         <li>Éviter animations CSS / JS</li>
                         <li>JS : fonction anonyme si utiliser 1 seul fois</li>
                         <li><code>i++</code> à remplacer par <code>++i</code></li>
@@ -578,7 +581,7 @@ log.info("Client is connecting with " + email);
 
 
             <section data-background-color="#eee8d5">
-                <h1 class="r-fit-text">Actions</h1>
+                <h1 class="r-fit-textttt">Actions</h1>
             </section>
             <section id="mesure">
                 <h3>On Mesure</h3>
@@ -588,7 +591,7 @@ log.info("Client is connecting with " + email);
                             au cours de son cycle de vie.</li>
                         <li>Eco Labels : EPEAT, TCO8, Blue Angel,
                             Greenpeace "Guide to greener electronics"</li>
-                        <li>Souscrire à une solution de mesure global chez AWS, GCP, AZURE</li>
+                        <li>Souscrire à une solution de mesure globale chez AWS, GCP, AZURE</li>
                         <li>Energie : consommation et mix énergétique</li>
                     </ul>
                     <ul class="fcolumn">
@@ -673,10 +676,10 @@ associés aux activés humaines
                         et plus de ressources à lire
                         <img src="assets/satisfaction_form.png" />
                     </div>
-                    <div class="fcolumn">
+                    <div class="fcolumn" style="color:#a8201a">
                         <p>MERCI</p>
                         <p style="font-size: 22px;">LIKEZ, COMMENTEZ, PARTAGEZ sur LES LINKEDIN.</p>
-                        <p style="font-size: 22px;">N'hésitez pas à me suivre ou connecter nos réseaux LinkedIni</p>
+                        <p style="font-size: 22px;">N'hésitez pas à me suivre ou connecter nos réseaux LinkedIn</p>
 
                     </div>
                     
