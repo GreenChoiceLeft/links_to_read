@@ -1,6 +1,5 @@
 Voici la liste des ressources à lire pour appronfondir votre démarche Green IT.
 
-*en construction...*
 
 ## Livres
 
@@ -28,7 +27,7 @@ Voici la liste des ressources à lire pour appronfondir votre démarche Green IT
 ## Influenceurs LinkedIn
 
 * Olivier Le Goaër
-* etc...
+* Corentin Jechoux
 
 ## Podcasts
 
@@ -57,10 +56,8 @@ Quelques exemples :
 * [PIXEL GO Product Environment Report](https://services.google.com/fh/files/misc/pixelbookgo_productenvironmentreport.pdf)
 * [iPhone XS Environmental Report](https://www.apple.com/environment/pdf/products/iphone/iPhone_XS_PER_sept2018.pdf)
 * [Carbon Footprint of a Typical Rack Server from Dell](http://i.dell.com/sites/content/corporate/corp-comm/en/documents/dell-server-carbon-footprint-whitepaper.pdf)
+* [Seagate - Évaluation du cycle de vie des produits et développement durable chez Seagate](https://www.seagate.com/fr/fr/global-citizenship/life-cycle-assessment/)
 
-## BONUS
-
-* [lien parrainage Green-Got](https://green-got.com?s=XoZa8KH) les banques historiques française financent à cout de milliards les énergie fossile. Chacun de leur client emet donc plusieurs tonnes d'équivalent CO2 selon les capitaux qui y sont immobilisés.
 
 
 
