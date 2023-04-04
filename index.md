@@ -58,6 +58,8 @@ Quelques exemples :
 * [Carbon Footprint of a Typical Rack Server from Dell](http://i.dell.com/sites/content/corporate/corp-comm/en/documents/dell-server-carbon-footprint-whitepaper.pdf)
 * [Seagate - Évaluation du cycle de vie des produits et développement durable chez Seagate](https://www.seagate.com/fr/fr/global-citizenship/life-cycle-assessment/)
 
-
+## Blockchain
+Yes blockchain can enable encouraging to Green IT with the following
+* [Proof of Climate awaReness](https://github.com/ethereum-pocr/whitepaper/blob/main/whitepaper.md)
 
 
